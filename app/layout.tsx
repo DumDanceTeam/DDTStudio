@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DDT Studio Interactive',
-  description: 'DDT Studio Interactive',
+  title: 'DDT Interactive',
+  description: 'DDT Interactive',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + " overflow-hidden"}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }

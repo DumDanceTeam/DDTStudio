@@ -57,6 +57,33 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      screens: {
+        'xxs': '280px',
+        'xss':'310px',
+        'xs': '320px',
+        // => @media (min-width: 320px) { ... }
+  
+        'xsBig': '450px',
+        // => @media (min-width: 450px) { ... }
+        'big':'500px',
+        'sm': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
+  
+        'xlmd':'900px',
+        // => @media (min-width: 900px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
