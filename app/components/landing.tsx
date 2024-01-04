@@ -19,7 +19,7 @@ const Landing: React.FC<LandingProps> = ({ label}) => {
                 height={500}
                 width={1000}
                 alt="logo"
-                className="mx-auto w-full max-w-[500px] lg:w-[1000px] mb-20 sm:mb-10"
+                className="mx-auto w-full max-w-[500px] lg:w-[1000px] sm:mb-10"
               />
             </Link>
         </div>
@@ -33,7 +33,7 @@ const Landing: React.FC<LandingProps> = ({ label}) => {
             <span className="text-slate-700">&quot;</span>
           </p>
           <div className="flex justify-center">
-          <p className="text-center">
+          <p className="text-center text-sm">
           Descoperă excelenta în servicii digitale cu S.C DDT INTERACTIVE GROUP S.R.L! Cu sediul în Arad str. Vaslui, nr. 7, bloc 723, sc. B, et. 1, ap. 5, judetul Arad,<br/> suntem partenerul tău de încredere în mediul online. Oferim soluții digitale inovatoare pentru afacerea ta, gestionate de echipa noastră pasionată.<br/> CUI: 46900400, Reg. Com.: J2/1818/23.09.2022, IBAN: RO49RNCB0857174623880001 la BCR.<br/> Contactează-ne la lilidumitrascu69@gmail.com sau la 0742116123 și descoperă cum putem transforma visurile tale digitale în realitate!
           </p>
           </div>
