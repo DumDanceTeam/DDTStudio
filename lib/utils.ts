@@ -30,7 +30,7 @@ export function constructMetadata({
       images: [
         {
           url: image,
-        }
+        },
       ]
     },
     icons,
